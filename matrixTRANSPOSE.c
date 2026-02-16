@@ -11,12 +11,11 @@ int main()
      {
           for(j=0;j<m;j++)
           {
-               printf("Enter the elemnts in matrix : ");
+               printf("Enter the element in matrix ([%d][%d])th item: ",i+1,j+1);
                scanf("%d",&a[i][j]);
           }
      }
-     i=0;
-     j=0;
+     printf("\n");
      for(i=0;i<n;i++)
      {
           for(j=0;j<m;j++)
