@@ -19,8 +19,8 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        printf("the weight of students %d : %f\n",i+1,s[i].weight);
-        printf("the height of students %d : %f\n",i+1,s[i].height);
+        printf("The weight of students %d : %.2fkg\n",i+1,s[i].weight);
+        printf("The height of students %d : %.2fcm\n",i+1,s[i].height);
     }
     return 0;
 }
